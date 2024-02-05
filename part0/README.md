@@ -30,6 +30,8 @@ In this exercise, you are required to create a diagram depicting the events that
    - Create a new note.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
+3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
+
 ## Exercise 0.5: Single Page App Diagram
 Create a diagram illustrating the situation when a user goes to the single-page app version of the notes app at [https://studies.cs.helsinki.fi/exampleapp/spa](https://studies.cs.helsinki.fi/exampleapp/spa).
 
@@ -40,8 +42,11 @@ Create a diagram illustrating the situation when a user goes to the single-page 
    - Navigate to the SPA.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
+3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
+
 ## Exercise 0.6: New Note in Single Page App Diagram
 Create a diagram illustrating the situation where the user creates a new note using the single-page version of the app.
+
 1. **Objective:** Create a new note in a Single Page Application and analyze network traffic.
 
 2. **Steps:**
@@ -50,3 +55,4 @@ Create a diagram illustrating the situation where the user creates a new note us
    - Create a new note.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
+3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
