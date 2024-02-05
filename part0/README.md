@@ -11,13 +11,13 @@
   - [Exercise 0.6: New Note in Single Page App Diagram](#exercise-06-new-note-in-single-page-app-diagram)
 
 ## Exercise 0.1: HTML
-Review the basics of HTML by reading [this tutorial from Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Guide), known as the HTML tutorial.
+- [x] Review the basics of HTML by reading [this tutorial from Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Guide), known as the HTML tutorial.
 
 ## Exercise 0.2: CSS
-Review the basics of CSS by reading [this tutorial from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Guide), known as the CSS tutorial.
+- [x] Review the basics of CSS by reading [this tutorial from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Guide), known as the CSS tutorial.
 
 ## Exercise 0.3: HTML Forms
-Learn about the basics of HTML forms by reading [Mozilla's tutorial](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form), titled "Your first form."
+- [x] Learn about the basics of HTML forms by reading [Mozilla's tutorial](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form), titled "Your first form."
 
 ## Exercise 0.4: New Note Diagram
 In this exercise, you are required to create a diagram depicting the events that occur when a user creates a new note on the page [https://studies.cs.helsinki.fi/exampleapp/notes](https://studies.cs.helsinki.fi/exampleapp/notes). The provided Mermaid syntax can be used as a reference.
