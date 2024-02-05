@@ -33,6 +33,33 @@ In this exercise, you are required to create a diagram depicting the events that
 
 3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
 
+graph TD
+  A[User] -->|Writes note and clicks Save| B[Browser]
+  B -->|Sends POST request| C[Server]
+  C -->|Processes request and saves note| D[Database]
+  C -->|Sends redirect response| B
+  B -->|Sends GET request| E[Server]
+  E -->|Sends HTML document| B
+  B -->|Sends GET request| F[Server]
+  F -->|Sends CSS file| B
+  B -->|Sends GET request| G[Server]
+  G -->|Sends JavaScript file| B
+  B -->|Executes JavaScript fetching JSON| G
+  G -->|Sends GET request| H[Server]
+  H -->|Sends JSON data| B
+  B -->|Executes callback function| I[Rendered Notes]
+
+  style A fill:#42f580,stroke:#333,stroke-width:2px
+  style B fill:#42f580,stroke:#333,stroke-width:2px
+  style C fill:#42f580,stroke:#333,stroke-width:2px
+  style D fill:#42f580,stroke:#333,stroke-width:2px
+  style E fill:#42f580,stroke:#333,stroke-width:2px
+  style F fill:#42f580,stroke:#333,stroke-width:2px
+  style G fill:#42f580,stroke:#333,stroke-width:2px
+  style H fill:#42f580,stroke:#333,stroke-width:2px
+  style I fill:#42f580,stroke:#333,stroke-width:2px
+
+
 ## Exercise 0.5: Single Page App Diagram
 Create a diagram illustrating the situation when a user goes to the single-page app version of the notes app at [https://studies.cs.helsinki.fi/exampleapp/spa](https://studies.cs.helsinki.fi/exampleapp/spa).
 
