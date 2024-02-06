@@ -32,7 +32,8 @@ In this exercise, you are required to create a diagram depicting the events that
    - Create a new note.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
-3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
+3. ![Solution for Exercise 0.4](4.PNG)
+
 
 ```mermaid
     graph TB
@@ -76,24 +77,10 @@ Create a diagram illustrating the situation when a user goes to the single-page 
    - Navigate to the SPA.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
-3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
+3. ![Solution for Exercise 0.5](5.PNG)
 
-```mermaid
-graph TD
-    A[User] -->|Navigates to SPA| B[Browser]
-    B -->|Sends GET request to SPA| C[Server]
-    C -->|Processes request| D[Server (SPA)]
-    D -->|Sends HTML document| B
-    B -->|Sends GET request for SPA CSS| E[Server (SPA)]
-    E -->|Sends CSS file| B
-    B -->|Sends GET request for SPA JavaScript| F[Server (SPA)]
-    F -->|Sends JavaScript file| B
-    B -->|SPA loads, fetches data| G[Server (SPA)]
-    G -->|Sends GET request for SPA data| H[Server (Data)]
-    H -->|Sends JSON data| D
-    D -->|SPA renders notes| I[Rendered Notes]
 
-```
+
 
 ## Exercise 0.6: New Note in Single Page App Diagram
 Create a diagram illustrating the situation where the user creates a new note using the single-page version of the app.
@@ -106,18 +93,4 @@ Create a diagram illustrating the situation where the user creates a new note us
    - Create a new note.
    - Check the "Network" tab in the developer tools for network requests and responses.
 
-3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
-
-```mermaid
-graph TD;
-  A[User] -->|Writes note and clicks Save| B[Browser];
-  B -->|Sends POST request to SPA| C[Server (SPA)];
-  C -->|Processes request and saves note| D[Server (Data)];
-  D -->|Sends success response| C;
-  C -->|SPA updates and fetches latest data| E[Server (SPA)];
-  E -->|Sends GET request for SPA data| F[Server (Data)];
-  F -->|Sends updated JSON data| C;
-  C -->|SPA re-renders notes| G[Rendered Notes];
-
-
-```
+3. ![Solution for Exercise 0.5](6.PNG)
