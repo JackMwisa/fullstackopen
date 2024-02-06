@@ -1,5 +1,6 @@
 # Full Stack Open - Part 0 Solutions
 
+
 ## Table of Contents
 - [Full Stack Open - Part 0 Solutions](#full-stack-open---part-0-solutions)
   - [Table of Contents](#table-of-contents)
