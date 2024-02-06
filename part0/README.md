@@ -91,6 +91,7 @@ graph TD
     G -->|Sends GET request for SPA data| H[Server (Data)]
     H -->|Sends JSON data| D
     D -->|SPA renders notes| I[Rendered Notes]
+
 ```
 
 ## Exercise 0.6: New Note in Single Page App Diagram
@@ -107,13 +108,15 @@ Create a diagram illustrating the situation where the user creates a new note us
 3. [Link to Solution](#) <!-- Replace # with the actual link to the solution -->
 
 ```mermaid
-graph TD
-    A[User] -->|Writes note and clicks Save| B[Browser]
-    B -->|Sends POST request to SPA| C[Server (SPA)]
-    C -->|Processes request and saves note| D[Server (Data)]
-    D -->|Sends success response| C
-    C -->|SPA updates and fetches latest data| E[Server (SPA)]
-    E -->|Sends GET request for SPA data| F[Server (Data)]
-    F -->|Sends updated JSON data| C
-    C -->|SPA re-renders notes| G[Rendered Notes]
+graph TD;
+  A[User] -->|Writes note and clicks Save| B[Browser];
+  B -->|Sends POST request to SPA| C[Server (SPA)];
+  C -->|Processes request and saves note| D[Server (Data)];
+  D -->|Sends success response| C;
+  C -->|SPA updates and fetches latest data| E[Server (SPA)];
+  E -->|Sends GET request for SPA data| F[Server (Data)];
+  F -->|Sends updated JSON data| C;
+  C -->|SPA re-renders notes| G[Rendered Notes];
+
+
 ```
